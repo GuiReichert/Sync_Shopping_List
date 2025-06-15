@@ -158,18 +158,6 @@
         }
       }
     },
-    "/Categoria/Sync": {
-      "get": {
-        "tags": [
-          "Categoria"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/Produto": {
       "get": {
         "tags": [
@@ -322,18 +310,6 @@
           }
         }
       }
-    },
-    "/Produto/Sync": {
-      "get": {
-        "tags": [
-          "Produto"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {
@@ -347,13 +323,6 @@
           },
           "nome": {
             "type": "string",
-            "nullable": true
-          },
-          "produtos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Produto"
-            },
             "nullable": true
           }
         },
@@ -369,6 +338,9 @@
           "nome": {
             "type": "string",
             "nullable": true
+          },
+          "selecionado": {
+            "type": "boolean"
           },
           "categoriaId": {
             "type": "integer",

@@ -342,3 +342,6 @@ C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_
 C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_De_Compras\Lista_De_Compras\obj\Debug\net8.0\Lista_De_Compras.pdb
 C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_De_Compras\Lista_De_Compras\obj\Debug\net8.0\Lista_De_Compras.genruntimeconfig.cache
 C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_De_Compras\Lista_De_Compras\obj\Debug\net8.0\ref\Lista_De_Compras.dll
+C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_De_Compras\Lista_De_Compras\obj\Debug\net8.0\Lista_De_Compras.sourcelink.json
+C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_De_Compras\Lista_De_Compras\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\GTXRo\Desktop\Programacao\Meus Projetos\App_Lista_De_Compras\API\Lista_De_Compras\Lista_De_Compras\bin\Debug\net8.0\Sprache.dll

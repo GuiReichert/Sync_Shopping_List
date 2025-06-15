@@ -74,20 +74,6 @@ namespace Lista_De_Compras.Controllers
             }
         }
 
-        [HttpGet("Sync")]
-        public async Task<ActionResult> SincronizarAlteracoes()
-        {
-            try
-            {
-                await _produtoService.SincronizarAlteracoes();
-                return Ok();
-            }
-            catch (Exception ex) 
-            {
-                return BadRequest(ex.Message); 
-            }
-        }
-
         
     }
 }

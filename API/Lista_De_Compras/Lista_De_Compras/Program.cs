@@ -11,7 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<Lista_De_Compras_Context>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+DotNetEnv.Env.Load();
+
+builder.Services.AddDbContext<Lista_De_Compras_Context>(x => x.UseSqlServer(Environment.GetEnvironmentVariable("Db_Connection")));
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
 
 var app = builder.Build();
