@@ -1,0 +1,198 @@
+[
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.CategoriaController",
+    "Method": "GetAllCategorias",
+    "RelativePath": "Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Lista_De_Compras.Models.Categoria, Lista_De_Compras, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.CategoriaController",
+    "Method": "PostProduto",
+    "RelativePath": "Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "Lista_De_Compras.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lista_De_Compras.Models.Categoria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.CategoriaController",
+    "Method": "PutCategoria",
+    "RelativePath": "Categoria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "Lista_De_Compras.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lista_De_Compras.Models.Categoria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.CategoriaController",
+    "Method": "DeleteCategoria",
+    "RelativePath": "Categoria/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.CategoriaController",
+    "Method": "SincronizarAlteracoes",
+    "RelativePath": "Categoria/Sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
+    "Method": "GetAllProdutos",
+    "RelativePath": "Produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Lista_De_Compras.Models.Produto, Lista_De_Compras, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
+    "Method": "PostProduto",
+    "RelativePath": "Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "Lista_De_Compras.Models.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lista_De_Compras.Models.Produto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
+    "Method": "PutProduto",
+    "RelativePath": "Produto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "Lista_De_Compras.Models.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lista_De_Compras.Models.Produto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
+    "Method": "DeleteProduto",
+    "RelativePath": "Produto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
+    "Method": "SincronizarAlteracoes",
+    "RelativePath": "Produto/Sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

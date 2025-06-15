@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\services\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\services\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Migrations\\20250615163347_ajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lista_De_Compras\\Migrations\\20250615163347_ajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\context\\lista_de_compras_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\context\\lista_de_compras_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|c:\\users\\gtxro\\desktop\\programacao\\meus projetos\\app_lista_de_compras\\api\\lista_de_compras\\lista_de_compras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D31F5E-0FFA-4BD7-87A2-A506C7BB035E}|Lista_De_Compras\\Lista_De_Compras.csproj|solutionrelative:lista_de_compras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250615163347_ajustes.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Migrations\\20250615163347_ajustes.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Migrations\\20250615163347_ajustes.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Migrations\\20250615163347_ajustes.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Migrations\\20250615163347_ajustes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:33:47.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Services\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Services\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Services\\IProdutoService.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Services\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:03:55.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwD8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:03:54.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:02:26.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwEAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:01:37.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Program.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Program.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Program.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:59:25.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lista_De_Compras_Context.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Context\\Lista_De_Compras_Context.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Context\\Lista_De_Compras_Context.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Context\\Lista_De_Compras_Context.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Context\\Lista_De_Compras_Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:58:31.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Models\\Produto.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:57:53.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Lista_De_Compras\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\GTXRo\\Desktop\\Programacao\\Meus Projetos\\App_Lista_De_Compras\\API\\Lista_De_Compras\\Lista_De_Compras\\Models\\Categoria.cs",
+              "RelativeToolTip": "Lista_De_Compras\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:57:32.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

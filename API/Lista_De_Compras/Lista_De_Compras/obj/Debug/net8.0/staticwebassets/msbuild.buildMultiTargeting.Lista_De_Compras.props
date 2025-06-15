@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lista_De_Compras.props" />
+</Project>
