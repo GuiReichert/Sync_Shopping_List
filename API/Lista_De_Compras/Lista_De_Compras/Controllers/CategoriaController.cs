@@ -6,7 +6,7 @@ namespace Lista_De_Compras.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CategoriaController: ControllerBase
+    public class CategoriaController : ControllerBase
     {
         private IProdutoService _produtoService;
 
@@ -21,7 +21,7 @@ namespace Lista_De_Compras.Controllers
 
             try
             {
-                var categorias= await _produtoService.GetAllCategorias();
+                var categorias = await _produtoService.GetAllCategorias();
                 return Ok(categorias);
             }
             catch (Exception ex)
@@ -72,21 +72,5 @@ namespace Lista_De_Compras.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
-        [HttpGet("Sync")]
-        public async Task<ActionResult> SincronizarAlteracoes()
-        {
-            try
-            {
-                await _produtoService.SincronizarAlteracoes();
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-
     }
 }

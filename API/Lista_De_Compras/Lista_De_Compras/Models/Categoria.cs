@@ -6,6 +6,6 @@ namespace Lista_De_Compras.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; } = string.Empty;
-        public List<Produto> Produtos { get; set; }
+        public List<Produto> Produtos { get; set; } = new List<Produto>();
     }
 }

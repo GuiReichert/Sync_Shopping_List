@@ -10,7 +10,7 @@ namespace Lista_De_Compras.Models
         public bool Selecionado { get; set; } = true;
 
         [JsonIgnore]
-        public Categoria Categoria { get; set; }
+        public Categoria Categoria { get; set; } = new Categoria();
         public int CategoriaId { get; set; }
 
     }

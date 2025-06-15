@@ -88,16 +88,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Lista_De_Compras.Controllers.CategoriaController",
-    "Method": "SincronizarAlteracoes",
-    "RelativePath": "Categoria/Sync",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
     "Method": "GetAllProdutos",
     "RelativePath": "Produto",
@@ -183,16 +173,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Lista_De_Compras.Controllers.ProdutoController",
-    "Method": "SincronizarAlteracoes",
-    "RelativePath": "Produto/Sync",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   }
 ]

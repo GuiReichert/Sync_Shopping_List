@@ -15,7 +15,13 @@ namespace Lista_De_Compras.Services
 
         public async Task<Produto> AddProdutos(Produto produto)
         {
-            await db.Produtos.AddAsync(produto);
+            var categoria = db.Categorias.FirstOrDefault(x => x.Id == produto.CategoriaId);
+            if (categoria == null) throw new Exception("essa categoria não existe");
+
+            produto.Categoria = categoria;
+            db.Produtos.Add(produto);
+            await db.SaveChangesAsync();
+
             return produto;
         }
 
@@ -24,6 +30,7 @@ namespace Lista_De_Compras.Services
             var produto = await db.Produtos.Where(x => x.Id == id).FirstOrDefaultAsync();
             if (produto == null) throw new Exception("Não foi possível encontrar o produto.");
             db.Remove(produto);
+            await db.SaveChangesAsync();
         }
 
         public async Task<List<Produto>> GetAllProdutos()
@@ -36,8 +43,15 @@ namespace Lista_De_Compras.Services
             var produto_alterar = await db.Produtos.FindAsync(produto.Id);
             if (produto_alterar == null) throw new Exception("nao foi possivel encontrar nenhum produto com este id");
             produto_alterar.Nome = produto.Nome;
-            produto_alterar.Categoria = produto.Categoria;
+
+            var categoria = db.Categorias.FirstOrDefault(x => x.Id == produto.CategoriaId);
+            if (categoria == null) throw new Exception("essa categoria não existe");
+
+
+            produto_alterar.Categoria = categoria;
             produto_alterar.Selecionado = produto.Selecionado;
+
+            await db.SaveChangesAsync();
 
             return produto_alterar;
 
@@ -52,6 +66,7 @@ namespace Lista_De_Compras.Services
         public async Task<Categoria> AddCategoria(Categoria categoria)
         {
             await db.Categorias.AddAsync(categoria);
+            await db.SaveChangesAsync();
             return categoria;
         }
 
@@ -60,6 +75,7 @@ namespace Lista_De_Compras.Services
             var categoria_alterar = await db.Categorias.FindAsync(categoria.Id);
             if (categoria_alterar == null) throw new Exception("nao foi possivel encontrar nenhum produto com este id");
             categoria.Nome = categoria.Nome;
+            await db.SaveChangesAsync();
 
             return categoria;
 
@@ -70,14 +86,6 @@ namespace Lista_De_Compras.Services
             var categoria = await db.Categorias.Where(x => x.Id == id).FirstOrDefaultAsync();
             if (categoria == null) throw new Exception("Não foi possível encontrar o produto.");
             db.Remove(categoria);
-        }
-
-
-
-
-
-        public async Task SincronizarAlteracoes()
-        {
             await db.SaveChangesAsync();
         }
     }

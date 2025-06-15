@@ -17,8 +17,5 @@ namespace Lista_De_Compras.Services
 
 
 
-        public Task SincronizarAlteracoes();
-
-
     }
 }
